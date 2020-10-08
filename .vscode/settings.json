@@ -1,0 +1,10 @@
+{
+	"editor.fontSize": 16,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"prettier.useTabs": true,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.fontFamily": "Fira Code, Roboto Mono, monospace" // This made it finally work for me
+}
