@@ -477,6 +477,7 @@
 	display: none;
 	animation: fadein ease-in 0.2s;
 	cursor: default;
+	z-index: 1;
 }
 /* Cart item CSS */
 .header__cart-heading {
