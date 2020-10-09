@@ -10,7 +10,23 @@
 		var(--header-height) - var(--navbar-height)
 	);
 }
-
+/* Animation */
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes growth {
+	from {
+		transform: scale(var(--growth-from));
+	}
+	to {
+		transform: scale(var(--growth-to));
+	}
+}
 * {
 	box-sizing: inherit;
 }
@@ -50,23 +66,7 @@ html {
 	padding-right: 12px;
 	width: 83.3334%;
 }
-/* Animation */
-@keyframes fadein {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-@keyframes growth {
-	from {
-		transform: scale(var(--growth-from));
-	}
-	to {
-		transform: scale(var(--growth-to));
-	}
-}
+
 /* Modall base CSS */
 .modal {
 	display: flex;
