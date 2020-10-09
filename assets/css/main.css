@@ -59,6 +59,7 @@
 	position: absolute;
 	right: 4px;
 	top: -29px;
+	z-index: -1;
 }
 .header__navbar-user-menu::after {
 	content: "";
@@ -468,7 +469,7 @@
 }
 .header__cart-list {
 	position: absolute;
-	top: calc(100% + 4px);
+	top: calc(100% + 6px);
 	right: 0;
 	background-color: var(--white-color);
 	width: 400px;
@@ -630,7 +631,7 @@
 .header__search-option {
 	position: absolute;
 	right: 0;
-	top: calc(100% - 1px);
+	top: calc(100% + 3px);
 	width: 130px;
 	padding-left: 0;
 	box-shadow: 0 1px 2px #e0e0e0;
@@ -684,7 +685,7 @@
 /* Search history */
 .header__search-history {
 	position: absolute;
-	top: calc(100% + 2.5px);
+	top: calc(100% + 2px);
 	left: 0;
 	width: calc(100% - 16px);
 	background-color: var(--white-color);
@@ -692,6 +693,7 @@
 	box-shadow: 0 0 5px rgb(190, 188, 188);
 	display: none;
 	overflow: hidden;
+	z-index: 1;
 }
 .header__search-history-heading {
 	margin: 6px 12px;
