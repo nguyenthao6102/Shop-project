@@ -850,7 +850,7 @@
 	color: var(--text-color);
 	text-decoration: none;
 	font-size: 1.4rem;
-	padding: 8px 20px;
+	padding: 15px 20px;
 	display: block;
 }
 .category-item__link:hover {
